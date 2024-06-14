@@ -1,0 +1,86 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Responsive HTML5 CSS3 Navigation Menu - No Framework</title>
+    <link rel="icon" href="favicon.png" type="image/png" sizes="32x32" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style/home.css">
+  </head>
+  <body>
+    <div class="navbar desktop-menu">
+      <div class="logo">
+        <a href="#"><img src="./assets/12064006_4897896.jpg" alt="my-logo" /></a>
+      </div>
+      <div id="menuSection" class="menu-sec">
+        <ul class="nav-menu">
+          <li><a class="active" href="#">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./services.html">Services</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </div>
+      
+    </div>
+    <div
+      onclick="closeMobMenuToggle()"
+      id="mobMenuCont"
+      class="mob-menu-container"
+    >
+      <!-- <img src="https://raw.githubusercontent.com/arravind-r/Responsive-HTML5-Navigation-Menu/main/src/close.png" alt="close-icon" /> -->
+    </div>
+    <div id="mobMenuWrap" class="mob-menu-wrap">
+      <div class="menu-content">
+        <div class="menu-items">
+          <ul class="nav-menu">
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./services.html">Services</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+        
+        </div>
+      </div>
+    </div>
+    <div class="mobile-menu">
+      <div class="logo">
+        <a href="#"><img src="assets/12064006_4897896.jpg" alt="my-logo" /></a>
+      </div>
+      <button onclick="mobMenuToggle()" class="menu">Menu</button>
+    </div>
+
+
+
+
+    <main>
+      <section class="body-container">
+       
+        <h2>Welcone</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur euismod magna at lacinia blandit. Donec rutrum congue leo eget malesuada. Nulla facilisi. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Nullam quis risus eget urna mollis ornare vel eu leo. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus.</p>
+        
+
+
+        <video  controls autoplay loop >
+          <source src="./assets/video.mp4" type="video/mp4">
+        </video>
+      </section>
+    </main>
+
+
+
+
+
+    <div class="footer">
+      <p>
+        Copyright © 2024 | Developed by
+        <a href="#" target="_blank">_______</a>
+      </p>
+    </div>
+    <script type="text/javascript" src="./assets/script.js"></script>
+  </body>
+</html>
